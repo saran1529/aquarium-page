@@ -13,17 +13,38 @@ body {
     background-color: white;
     color: brown;
 }
-nav{
+.index-nav,
+.about-nav,
+.contact-us-nav{
     background-color: orange;
-    text-align: center;
-    text-decoration: underline;
-    padding: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+   
+    /* padding: 20px; */
     font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    height: auto;
+    padding: 18px;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    transition: .5s all ease;
+    
 }
 .gup{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 section {
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     margin: 10px;
     padding: 15px;
 }
