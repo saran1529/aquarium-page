@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+body {
+    background-color: white;
+    color: brown;
+}
+
+.index-nav,
+.about-nav,
+.contact-us-nav{
+    background-color: orange;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+   
+    /* padding: 20px; */
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    height: auto;
+    padding: 18px;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    transition: .5s all ease;   
+}
+
+/* ------------------------------------------------- */
+
+
+.heading-sec{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 10px; */
+    gap: 10px;
+}
+.heading-sec h1{
+    width: 100%;
+    background-color: rgb(210, 243, 243);
+    box-shadow: 0 0 5px rgb(248, 113, 113) ;
+    font-size: 50px;
+    text-align: center;
+    color: #ff6347;
+}
+
+/* ------------------------------------------------------ */
+
+table{
+    width: 100%;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3px;
+    border: 2px solid black;
+    background-image: url(/image/betta.webp) ;
+    
+    /* border="5"  */
+    /* style="width: 100%;" */
+    /* table-layout: style(width:100%); */
+}
+thead{
+    background-color: #ff6347;
+    color: black;
+}
+table tbody .tr1 .detail,
+table tbody .tr2 .detail,
+table tbody .tr3 .detail,
+table tbody .tr4 .detail,
+table tbody .tr5 .detail,
+table tbody .tr6 .detail{
+    color: rgb(255, 255, 255);
+}
+table tbody .tr1 .sl,
+table tbody .tr2 .sl,
+table tbody .tr3 .sl,
+table tbody .tr4 .sl,
+table tbody .tr5 .sl,
+table tbody .tr6 .sl{
+    color: rgb(255, 254, 254);
+}
+table tbody .tr1 .sl,
+table tbody .tr1 .name,
+table tbody .tr1 .detail{
+    border: 2px solid black;
+    padding: 20px;
+}
+table tbody .tr2 .sl,
+table tbody .tr2 .name,
+table tbody .tr2 .detail{
+    border: 2px solid black;
+    padding: 20px;
+}
+table tbody .tr3 .sl,
+table tbody .tr3 .name,
+table tbody .tr3 .detail{
+    border: 2px solid black;
+    padding: 20px;
+}
+table tbody .tr4 .sl,
+table tbody .tr4 .name,
+table tbody .tr4 .detail{
+    border: 2px solid black;
+    padding: 20px;
+}
+table tbody .tr5 .sl,
+table tbody .tr5 .name,
+table tbody .tr5 .detail{
+    border: 2px solid black;
+    padding: 20px;
+}
+table tbody .tr6 .sl,
+table tbody .tr6 .name,
+table tbody .tr6 .detail{
+    border: 2px solid black;
+    padding: 20px;
+}

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: brown;
 }
 .index-nav,
@@ -33,37 +33,502 @@ nav a{
 }
 nav a:hover{
     background-color: antiquewhite;
-    transition: .5s all ease;
-    
+    transition: .5s all ease;   
 }
-.gup{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-section {
+
+/* --------------------------------------------------------- */
+
+
+.heading-sec{
+    /* background-color: antiquewhite; */
     width: 100%;
-    background-color: bisque;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* margin: 10px; */
     gap: 10px;
-    margin: 10px;
-    padding: 15px;
 }
-ol {
-    list-style: none;
-}
-ol li{
-    display: inline;
-}
-h1{
-    text-align: center;
+.heading-sec h1{
+    width: 100%;
+    background-color: rgb(210, 243, 243);
+    box-shadow: 0 0 5px rgb(248, 113, 113) ;
     font-size: 50px;
+    text-align: center;
     color: #ff6347;
 }
-section{
-    margin: 15px;
-    text-align: center;
+.heading-sec p{
+    font-size: 13px;
 }
-.molly{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
+.heading-sec h2{
+    font-size: 25px;
+    text-shadow: #eeb0a6 0 10px 10px;
+    /* font-weight: bold; */
+}
+.heading-sec h3{
+    color: black;
+    font-size: 15px;
+}
 
+/* ----------------------------------------------- */
+
+
+.list-container {
+    /* background-color: aqua; */
+    width: 100%;
+    height: auto;
+}
+.list-container ol {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    /* align-content: center; */
+}
+.list-container ol li{
+    background-color: #ff6347;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px; 
+    display: inline;
+    /* padding: 12px; */
+    text-align: center;
+    align-content: center;
+    /* justify-content: center; */
+    /* margin: 18px; */
+    /* flex-direction: column; */
+}
+.list-container ol li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform:capitalize;
+    color: white;
+}
+.list-container ol li:hover{
+    background-color: #7adce5; 
+    transition: .5s all ease;
+}
+.list-container ol li a:hover{
+    color: black;
+    transition: .5s all ease;
+}
+
+/* -------------------------------------------------- */
+
+
+.a-container{
+    width: 100%;
+    align-content: center;
+    margin-top:50px ;
+}
+.a-container .a-heading{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 15px;
+    background-color: #FF6347;
+    /* position: relative; */
+}
+.a-container h2 i{
+    font-size: 50px;
+    align-items: center;
+    color: black;
+}
+.a-container p{
+    border:solid #ff634740;
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+}
+.a-container .a-para1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.a-container .a-para1 .a-img1 img{
+    height: 200px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+.a-container .a-para2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.a-container .a-para2 .a-img2 img{
+    height: 200px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+
+
+
+/* ---------------------------------------------------- */
+
+.b-container{
+    width: 100%;
+    align-content: center;
+    margin-top:50px ;
+}
+.b-container .b-heading{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 15px;
+    background-color: #FF6347;
+    /* position: relative; */
+}
+.b-container h2 i{
+    font-size: 50px;
+    align-items: center;
+    color: black;
+}
+.b-container p{
+    border:solid #ff634740;
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+}
+.b-container .b-para1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.b-container .b-para1 .b-img1 img{
+    height: 200px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+.b-container .b-para2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.b-container .b-para2 .b-img2 img{
+    height: 200px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+
+/* ---------------------------------------------------- */
+
+.c-container{
+    width: 100%;
+    align-content: center;
+    margin-top:50px ;
+}
+.c-container .c-heading{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 15px;
+    background-color: #FF6347;
+    /* position: relative; */
+}
+.c-container h2 i{
+    font-size: 50px;
+    align-items: center;
+    color: black;
+}
+.c-container p{
+    border:solid #ff634740;
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+}
+.c-container .c-para1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.c-container .c-para1 .c-img1 img{
+    height: 250px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+.c-container .c-para2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.c-container .c-para2 .c-img2 img{
+    height: 330px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+
+/* ---------------------------------------------------- */
+
+.d-container{
+    width: 100%;
+    align-content: center;
+    margin-top:50px ;
+}
+.d-container .d-heading{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 15px;
+    background-color: #FF6347;
+    /* position: relative; */
+}
+.d-container h2 i{
+    font-size: 50px;
+    align-items: center;
+    color: black;
+}
+.d-container p{
+    border:solid #ff634740;
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+}
+.d-container .d-para1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.d-container .d-para1 .d-img1 img{
+    height: 250px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+.d-container .d-para2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.d-container .d-para2 .d-img2 img{
+    height: 200px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+
+/* ---------------------------------------------------- */
+
+.e-container{
+    width: 100%;
+    align-content: center;
+    margin-top:50px ;
+}
+.e-container .e-heading{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 15px;
+    background-color: #FF6347;
+    /* position: relative; */
+}
+.e-container h2 i{
+    font-size: 50px;
+    align-items: center;
+    color: black;
+}
+.e-container p{
+    border:solid #ff634740;
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+}
+.e-container .e-para1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.e-container .e-para1 .e-img1 img{
+    height: 250px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+.e-container .e-para2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.e-container .e-para2 .e-img2 img{
+    height: 250px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+
+/* ---------------------------------------------------- */
+
+
+.f-container{
+    width: 100%;
+    align-content: center;
+    margin-top:50px ;
+}
+.f-container .f-heading{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 15px;
+    background-color: #FF6347;
+    /* position: relative; */
+}
+.f-container h2 i{
+    font-size: 50px;
+    align-items: center;
+    color: black;
+}
+.f-container p{
+    border:solid #ff634740;
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+}
+.f-container .f-para1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.f-container .f-para1 .f-img1 img{
+    height: 250px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+.f-container .f-para2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.f-container .f-para2 .f-img2 img{
+    height: 250px;
+    width: 350px; 
+    box-shadow: 0 0 20px rgb(241, 78, 78) ;
+}
+
+/* ---------------------------------------------------- */
+
+
+
+.a-container .a-para1 .a-img1 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.a-container .a-para1 .a-img1:hover{
+    overflow: hidden;
+}
+.a-container .a-para2 .a-img2 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.a-container .a-para2 .a-img2:hover{
+    overflow: hidden;
+}
+
+/* ------------------------------------- */
+
+.b-container .b-para1 .b-img1 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.b-container .b-para1 .b-img1:hover{
+    overflow: hidden;
+}
+.b-container .b-para2 .b-img2 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.b-container .b-para2 .b-img2:hover{
+    overflow: hidden;
+}
+
+/* ------------------------------------- */
+
+.c-container .c-para1 .c-img1 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.c-container .c-para1 .c-img1:hover{
+    overflow: hidden;
+}
+.c-container .c-para2 .c-img2 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.c-container .c-para2 .c-img2:hover{
+    overflow: hidden;
+}
+
+/* ------------------------------------- */
+
+.d-container .d-para1 .d-img1 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.d-container .d-para1 .d-img1:hover{
+    overflow: hidden;
+}
+.d-container .d-para2 .d-img2 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.d-container .d-para2 .d-img2:hover{
+    overflow: hidden;
+}
+
+/* ------------------------------------- */
+
+.e-container .e-para1 .e-img1 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.e-container .e-para1 .e-img1:hover{
+    overflow: hidden;
+}
+.e-container .e-para2 .e-img2 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.e-container .e-para2 .e-img2:hover{
+    overflow: hidden;
+}
+
+/* ------------------------------------- */
+
+.f-container .f-para1 .f-img1 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.f-container .f-para1 .f-img1:hover{
+    overflow: hidden;
+}
+.f-container .f-para2 .f-img2 img:hover{
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
+.f-container .f-para2 .f-img2:hover{
+    overflow: hidden;
+}
+
+/* ------------------------------------- */
